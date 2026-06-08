@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@11.5.2",
   "engines": {
     "node": ">=24"
   },
@@ -14,8 +14,8 @@
     "typecheck": "tsc -b --noEmit"
   },
   "dependencies": {
-    "@rgrmdesign/rgrm-ds-react": "^0.2.0",
-    "@rgrmdesign/rgrm-ds-tokens": "^0.6.1",
+    "@rgrmdesign/rgrm-ds-react": "^0.2.1",
+    "@rgrmdesign/rgrm-ds-tokens": "^0.7.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },
