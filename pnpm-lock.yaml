@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@rgrmdesign/rgrm-ds-react':
-        specifier: ^0.1.1
-        version: 0.1.1(@rgrmdesign/rgrm-ds-tokens@0.5.0)(react@19.2.7)
+        specifier: ^0.2.0
+        version: 0.2.0(@rgrmdesign/rgrm-ds-tokens@0.6.1)(react@19.2.7)
       '@rgrmdesign/rgrm-ds-tokens':
-        specifier: ^0.5.0
-        version: 0.5.0
+        specifier: ^0.6.1
+        version: 0.6.1
       react:
         specifier: ^19.2.7
         version: 19.2.7
@@ -57,22 +57,22 @@ packages:
   '@oxc-project/types@0.133.0':
     resolution: {integrity: sha512-KzkdCd6Uxqnf6l3HOw1xfatAlUURA0g14cvBYFyJ5SaNOQbOUvBr9PKArcPcrNIeRsBdgcUzOGrhKveVpvOIGA==}
 
-  '@rgrmdesign/rgrm-ds-core@0.1.1':
-    resolution: {integrity: sha512-jOmy5UE4enkFbVF+ge9FIgeDLH9ZJvw5BqQJdbcfkFvqDg9Bv/NUw4lsdr458y6DoKlBwTCgEKo+mgP5F9DtiQ==}
+  '@rgrmdesign/rgrm-ds-core@0.2.0':
+    resolution: {integrity: sha512-hOrBJG5p48S29/TEmJT06dL+Kgt6ovYVcBqDoLVgURSEOW1Ahx4ZoKUp01Uyd49Pofm3Zcn/yRNlmDez2ZZBkQ==}
 
-  '@rgrmdesign/rgrm-ds-css@0.1.1':
-    resolution: {integrity: sha512-aGwi6PZARP3TQ78s5HtqRuE+BaZX7VShgZLLz476tsVdDAbSpHFo8KcR9uJ1celzJNh1LxSAXf1wj6I340Rb/g==}
+  '@rgrmdesign/rgrm-ds-css@0.2.0':
+    resolution: {integrity: sha512-Xy4n8+Pg4hvkUkeXTbuRtFOrviZu4990CA9m19lVpPKOah+fbmpff4Q3eHyum5RZ86v0e5cRH3ppeKtTvwNEQQ==}
     peerDependencies:
-      '@rgrmdesign/rgrm-ds-tokens': '>=0.5.0'
+      '@rgrmdesign/rgrm-ds-tokens': '>=0.6.0'
 
-  '@rgrmdesign/rgrm-ds-react@0.1.1':
-    resolution: {integrity: sha512-ZPsyBCB8Fw08T/Si6QUQ8XpvSHbgVRNmWqHDx3c5K98d9JZ4RWsFbPTOvWCQIQbLewVxoX+N4zu+DLFFk6SWiQ==}
+  '@rgrmdesign/rgrm-ds-react@0.2.0':
+    resolution: {integrity: sha512-b9gEasz1w03FPYADX2OzAgjImOC0BDWDpwYFZFbC8PUwToYrJ4ifRmyeJvKe0oqBthiKZBI+1bAnzCDI/cH27Q==}
     peerDependencies:
-      '@rgrmdesign/rgrm-ds-tokens': '>=0.5.0'
+      '@rgrmdesign/rgrm-ds-tokens': '>=0.6.0'
       react: '>=18'
 
-  '@rgrmdesign/rgrm-ds-tokens@0.5.0':
-    resolution: {integrity: sha512-npSYj9RRuq6e3oPA52GpfSoqYNtMwgL6HVA24wvZxkyV0QRi9wOtgevxzSvTjBqojQxXvWjIlRvLbN0vJwH1RQ==}
+  '@rgrmdesign/rgrm-ds-tokens@0.6.1':
+    resolution: {integrity: sha512-BD/ssHjKNHgtFoqYB832uLXNt0IgXP8FM4p4zrnmOjFMVyyMQI4BzM6FZAUyxJ/p/9+GL7WiX4ls0MdNcQUIRQ==}
     engines: {node: '>=22.13'}
 
   '@rolldown/binding-android-arm64@1.0.3':
@@ -411,20 +411,20 @@ snapshots:
 
   '@oxc-project/types@0.133.0': {}
 
-  '@rgrmdesign/rgrm-ds-core@0.1.1': {}
+  '@rgrmdesign/rgrm-ds-core@0.2.0': {}
 
-  '@rgrmdesign/rgrm-ds-css@0.1.1(@rgrmdesign/rgrm-ds-tokens@0.5.0)':
+  '@rgrmdesign/rgrm-ds-css@0.2.0(@rgrmdesign/rgrm-ds-tokens@0.6.1)':
     dependencies:
-      '@rgrmdesign/rgrm-ds-tokens': 0.5.0
+      '@rgrmdesign/rgrm-ds-tokens': 0.6.1
 
-  '@rgrmdesign/rgrm-ds-react@0.1.1(@rgrmdesign/rgrm-ds-tokens@0.5.0)(react@19.2.7)':
+  '@rgrmdesign/rgrm-ds-react@0.2.0(@rgrmdesign/rgrm-ds-tokens@0.6.1)(react@19.2.7)':
     dependencies:
-      '@rgrmdesign/rgrm-ds-core': 0.1.1
-      '@rgrmdesign/rgrm-ds-css': 0.1.1(@rgrmdesign/rgrm-ds-tokens@0.5.0)
-      '@rgrmdesign/rgrm-ds-tokens': 0.5.0
+      '@rgrmdesign/rgrm-ds-core': 0.2.0
+      '@rgrmdesign/rgrm-ds-css': 0.2.0(@rgrmdesign/rgrm-ds-tokens@0.6.1)
+      '@rgrmdesign/rgrm-ds-tokens': 0.6.1
       react: 19.2.7
 
-  '@rgrmdesign/rgrm-ds-tokens@0.5.0': {}
+  '@rgrmdesign/rgrm-ds-tokens@0.6.1': {}
 
   '@rolldown/binding-android-arm64@1.0.3':
     optional: true

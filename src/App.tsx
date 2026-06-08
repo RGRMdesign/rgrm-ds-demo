@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import {
+  Button,
   Heading,
   Paragraph,
   Section,
@@ -116,6 +117,42 @@ export function App() {
         </Section>
 
         <Section spacingTop="small" spacingBottom="small">
+          <Heading level={2}>Buttons</Heading>
+          <Paragraph>
+            De nieuwe <code>Button</code> component neemt zijn stijl uit de design
+            tokens en past zich automatisch aan het thema aan. Hij accepteert alle
+            standaard <code>button</code>-attributen.
+          </Paragraph>
+          <div className="demo-stack">
+            <div className="demo-row">
+              <span className="demo-row__label">variant="primary"</span>
+              <div className="demo-buttons">
+                <Button variant="primary">Primaire actie</Button>
+              </div>
+            </div>
+            <div className="demo-row">
+              <span className="demo-row__label">disabled</span>
+              <div className="demo-buttons">
+                <Button variant="primary" disabled>
+                  Uitgeschakeld
+                </Button>
+              </div>
+            </div>
+            <div className="demo-row">
+              <span className="demo-row__label">met onClick</span>
+              <div className="demo-buttons">
+                <Button
+                  variant="primary"
+                  onClick={() => window.alert('Geklikt!')}
+                >
+                  Klik mij
+                </Button>
+              </div>
+            </div>
+          </div>
+        </Section>
+
+        <Section spacingTop="small" spacingBottom="small">
           <Heading level={2}>Sections &amp; thema's</Heading>
           <Paragraph>
             Elke <code>Section</code> kan een eigen thema krijgen via de{' '}
@@ -150,6 +187,9 @@ export function App() {
                   <span className="demo-swatch__name">{s.name}</span>
                 </div>
               ))}
+            </div>
+            <div className="demo-buttons">
+              <Button variant="primary">Actie in {t.label}-thema</Button>
             </div>
           </Section>
         ))}

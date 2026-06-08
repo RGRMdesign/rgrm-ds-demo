@@ -106,6 +106,14 @@ code {
   margin-top: var(--rgrm-viewport-space-5);
 }
 
+.demo-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--rgrm-viewport-space-3);
+  margin-top: var(--rgrm-viewport-space-4);
+}
+
 .demo-swatch {
   display: flex;
   align-items: center;
