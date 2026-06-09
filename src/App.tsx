@@ -41,7 +41,7 @@ export function App() {
     <div className="demo">
       <header className="demo-header">
         <span className="demo-header__brand">RGRM Design System</span>
-        <nav className="demo-theme-switch" aria-label="Thema kiezen">
+        <nav className="demo-theme-switch" aria-label="Choose theme">
           {THEMES.map((t) => (
             <button
               key={t.id}
@@ -60,20 +60,20 @@ export function App() {
         <Section spacingTop="page-top" spacingBottom="large">
           <Heading level="display">RGRM Design System.</Heading>
           <Paragraph size="large">
-            Een kleine demo gebouwd met <code>@rgrmdesign/rgrm-ds-react</code> en{' '}
-            <code>@rgrmdesign/rgrm-ds-tokens</code>. Wissel hierboven van thema om de
-            design tokens live te zien veranderen.
+            A small demo built with <code>@rgrmdesign/rgrm-ds-react</code> and{' '}
+            <code>@rgrmdesign/rgrm-ds-tokens</code>. Switch the theme above to see the
+            design tokens update live.
           </Paragraph>
           <Paragraph>
-            Gebouwd met pnpm, Node 24 en Vite, en automatisch gepubliceerd naar
-            GitHub Pages.
+            Built with pnpm, Node 24, and Vite, and automatically published to GitHub
+            Pages.
           </Paragraph>
         </Section>
 
         <Section spacingTop="small" spacingBottom="small">
           <Heading level={2}>Headings</Heading>
           <Paragraph>
-            De <code>Heading</code> component ondersteunt niveaus 1 t/m 6 plus{' '}
+            The <code>Heading</code> component supports levels 1 through 6 plus{' '}
             <code>display</code>.
           </Paragraph>
           <div className="demo-stack">
@@ -91,26 +91,26 @@ export function App() {
         <Section spacingTop="small" spacingBottom="small">
           <Heading level={2}>Paragraphs</Heading>
           <Paragraph>
-            De <code>Paragraph</code> component heeft de varianten{' '}
-            <code>large</code>, standaard en <code>small</code>.
+            The <code>Paragraph</code> component comes in <code>large</code>, default,
+            and <code>small</code> variants.
           </Paragraph>
           <div className="demo-stack">
             <div className="demo-row">
               <span className="demo-row__label">size="large"</span>
               <Paragraph size="large">
-                Lead paragraaf voor een introductie of belangrijke boodschap.
+                Lead paragraph for an introduction or key message.
               </Paragraph>
             </div>
             <div className="demo-row">
               <span className="demo-row__label">default</span>
               <Paragraph>
-                Standaard bodytekst voor de meeste inhoud op een pagina.
+                Default body text for most page content.
               </Paragraph>
             </div>
             <div className="demo-row">
               <span className="demo-row__label">size="small"</span>
               <Paragraph size="small">
-                Kleine tekst voor bijschriften of de kleine lettertjes.
+                Small text for captions or fine print.
               </Paragraph>
             </div>
           </div>
@@ -119,33 +119,33 @@ export function App() {
         <Section spacingTop="small" spacingBottom="small">
           <Heading level={2}>Buttons</Heading>
           <Paragraph>
-            De nieuwe <code>Button</code> component neemt zijn stijl uit de design
-            tokens en past zich automatisch aan het thema aan. Hij accepteert alle
-            standaard <code>button</code>-attributen.
+            The <code>Button</code> component draws its styles from the design tokens
+            and adapts automatically to the theme. It accepts all standard{' '}
+            <code>button</code> attributes.
           </Paragraph>
           <div className="demo-stack">
             <div className="demo-row">
               <span className="demo-row__label">variant="primary"</span>
               <div className="demo-buttons">
-                <Button variant="primary">Primaire actie</Button>
+                <Button variant="primary">Primary action</Button>
               </div>
             </div>
             <div className="demo-row">
               <span className="demo-row__label">disabled</span>
               <div className="demo-buttons">
                 <Button variant="primary" disabled>
-                  Uitgeschakeld
+                  Disabled
                 </Button>
               </div>
             </div>
             <div className="demo-row">
-              <span className="demo-row__label">met onClick</span>
+              <span className="demo-row__label">with onClick</span>
               <div className="demo-buttons">
                 <Button
                   variant="primary"
-                  onClick={() => window.alert('Geklikt!')}
+                  onClick={() => window.alert('Clicked!')}
                 >
-                  Klik mij
+                  Click me
                 </Button>
               </div>
             </div>
@@ -153,11 +153,11 @@ export function App() {
         </Section>
 
         <Section spacingTop="small" spacingBottom="small">
-          <Heading level={2}>Sections &amp; thema's</Heading>
+          <Heading level={2}>Sections &amp; themes</Heading>
           <Paragraph>
-            Elke <code>Section</code> kan een eigen thema krijgen via de{' '}
-            <code>theme</code> prop. De tokens binnen de sectie passen zich
-            automatisch aan.
+            Each <code>Section</code> can have its own theme via the{' '}
+            <code>theme</code> prop. The tokens within the section adapt
+            automatically.
           </Paragraph>
         </Section>
 
@@ -173,9 +173,8 @@ export function App() {
               {t.id !== 'root' ? ` · data-theme="${t.id}"` : ''}
             </Heading>
             <Paragraph>
-              Deze sectie gebruikt het <strong>{t.label}</strong>-thema. De
-              achtergrond, tekstkleur en accentkleur komen rechtstreeks uit de
-              design tokens.
+              This section uses the <strong>{t.label}</strong> theme. The background,
+              text color, and accent color come directly from the design tokens.
             </Paragraph>
             <div className="demo-swatches">
               {SWATCHES.map((s) => (
@@ -189,7 +188,7 @@ export function App() {
               ))}
             </div>
             <div className="demo-buttons">
-              <Button variant="primary">Actie in {t.label}-thema</Button>
+              <Button variant="primary">Action in {t.label} theme</Button>
             </div>
           </Section>
         ))}
