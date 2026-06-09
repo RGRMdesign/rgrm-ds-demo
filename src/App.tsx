@@ -4,6 +4,7 @@ import {
   Heading,
   Paragraph,
   Section,
+  type HeadingAppearance,
   type HeadingLevel,
   type SectionTheme,
 } from '@rgrmdesign/rgrm-ds-react';
@@ -14,7 +15,19 @@ const THEMES: { id: SectionTheme; label: string }[] = [
   { id: 'brand', label: 'Brand' },
 ];
 
-const HEADING_LEVELS: HeadingLevel[] = ['display', 1, 2, 3, 4, 5, 6];
+const HEADING_EXAMPLES: {
+  level: HeadingLevel;
+  appearance?: HeadingAppearance;
+  label: string;
+}[] = [
+  { level: 1, appearance: 'display', label: 'appearance="display"' },
+  { level: 1, label: 'level=1' },
+  { level: 2, label: 'level=2' },
+  { level: 3, label: 'level=3' },
+  { level: 4, label: 'level=4' },
+  { level: 5, label: 'level=5' },
+  { level: 6, label: 'level=6' },
+];
 
 const SWATCHES: { name: string; varName: string }[] = [
   { name: 'background', varName: '--rgrm-theme-background' },
@@ -58,7 +71,9 @@ export function App() {
 
       <main>
         <Section spacingTop="page-top" spacingBottom="large">
-          <Heading level="display">RGRM Design System.</Heading>
+          <Heading level={1} appearance="display">
+            RGRM Design System.
+          </Heading>
           <Paragraph size="large">
             A small demo built with <code>@rgrmdesign/rgrm-ds-react</code> and{' '}
             <code>@rgrmdesign/rgrm-ds-tokens</code>. Switch the theme above to see the
@@ -73,16 +88,17 @@ export function App() {
         <Section spacingTop="small" spacingBottom="small">
           <Heading level={2}>Headings</Heading>
           <Paragraph>
-            The <code>Heading</code> component supports levels 1 through 6 plus{' '}
-            <code>display</code>.
+            The <code>Heading</code> component supports semantic levels 1 through 6,
+            plus an optional <code>appearance</code> prop for visual scale (including{' '}
+            <code>display</code>).
           </Paragraph>
           <div className="demo-stack">
-            {HEADING_LEVELS.map((level) => (
-              <div key={String(level)} className="demo-row">
-                <span className="demo-row__label">
-                  level={typeof level === 'string' ? `"${level}"` : level}
-                </span>
-                <Heading level={level}>The quick brown fox.</Heading>
+            {HEADING_EXAMPLES.map((example) => (
+              <div key={example.label} className="demo-row">
+                <span className="demo-row__label">{example.label}</span>
+                <Heading level={example.level} appearance={example.appearance}>
+                  The quick brown fox.
+                </Heading>
               </div>
             ))}
           </div>
