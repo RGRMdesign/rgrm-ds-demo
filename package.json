@@ -14,8 +14,8 @@
     "typecheck": "tsc -b --noEmit"
   },
   "dependencies": {
-    "@rgrmdesign/rgrm-ds-react": "^0.4.1",
-    "@rgrmdesign/rgrm-ds-tokens": "^0.8.0",
+    "@rgrmdesign/rgrm-ds-react": "^0.5.3",
+    "@rgrmdesign/rgrm-ds-tokens": "^0.10.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },

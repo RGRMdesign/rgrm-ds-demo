@@ -1,9 +1,8 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import { Root } from '@rgrmdesign/rgrm-ds-react';
 
-// Load the design tokens once for the whole app (base theme on :root,
-// plus the [data-theme="dark"] and [data-theme="brand"] variants).
-import '@rgrmdesign/rgrm-ds-tokens/tokens.css';
+import '@rgrmdesign/rgrm-ds-tokens';
 import '@rgrmdesign/rgrm-ds-react/fonts';
 
 import { App } from './App.tsx';
@@ -11,6 +10,8 @@ import './styles.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <Root>
+      <App />
+    </Root>
   </StrictMode>,
 );
