@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@rgrmdesign/rgrm-ds-react':
-        specifier: ^0.5.3
-        version: 0.5.3(@rgrmdesign/rgrm-ds-tokens@0.10.0)(react@19.2.7)
+        specifier: ^0.5.4
+        version: 0.5.4(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)
       '@rgrmdesign/rgrm-ds-tokens':
-        specifier: ^0.10.0
-        version: 0.10.0
+        specifier: ^0.11.0
+        version: 0.11.0
       react:
         specifier: ^19.2.7
         version: 19.2.7
@@ -63,19 +63,19 @@ packages:
   '@rgrmdesign/rgrm-ds-core@0.4.1':
     resolution: {integrity: sha512-uCT1zTeRMEWP74epcOMh134XbFciLC/SwQfNR74AHHraPAKXPdH1zoswIF3+9PyuEp81XJ1ge2JDmhei4X0vKg==}
 
-  '@rgrmdesign/rgrm-ds-css@0.5.3':
-    resolution: {integrity: sha512-qT/WgnvgM3ypc75vt9ScvUoVpbyaMiOeLWZI551h7LQ7dw4GLogMy90Pt/UPDysRFUP6W6AwQMH9lU7//OK3wQ==}
+  '@rgrmdesign/rgrm-ds-css@0.5.4':
+    resolution: {integrity: sha512-HdSmRBGlGOZps33Kdr17Ic2+quuE269TWXuWMfbrI0nB3599uH91OKvMicBpJPhB3V66dB1KDjI9BUGB109ibw==}
     peerDependencies:
-      '@rgrmdesign/rgrm-ds-tokens': '>=0.10.0'
+      '@rgrmdesign/rgrm-ds-tokens': '>=0.11.0'
 
-  '@rgrmdesign/rgrm-ds-react@0.5.3':
-    resolution: {integrity: sha512-GQ34s92G4plSsycMmAyE4nAogPxRtyz/arcEmSvzIeVwcVZrh/PzLcNm0uxb4DpbDf529jE42ZFPODR22/sqPQ==}
+  '@rgrmdesign/rgrm-ds-react@0.5.4':
+    resolution: {integrity: sha512-/6tiR01OLiWfNHGGy383IuFNA0Ca7AWgHGBuExrkWNOlMObanRJa84wa//XCFygsbX8wTJc6DqmUdOWVQGLc/A==}
     peerDependencies:
-      '@rgrmdesign/rgrm-ds-tokens': '>=0.10.0'
+      '@rgrmdesign/rgrm-ds-tokens': '>=0.11.0'
       react: '>=18'
 
-  '@rgrmdesign/rgrm-ds-tokens@0.10.0':
-    resolution: {integrity: sha512-zxA6GF6povBloQgCHhbcUgdxz9eJR7AINjZuxjzG3p5pCjx0NY0cOV8NlPmM4N1Z/rOQc1N3g8eDZgSCy2DD7w==}
+  '@rgrmdesign/rgrm-ds-tokens@0.11.0':
+    resolution: {integrity: sha512-zoR0bVZ95fm/GeHEdaCD8X1FQTxbn4bhdO6mMIFheJTDjVGzoloN7mkNU7zrhGxRIpjUUGZnE8/oSD89FEERtg==}
     engines: {node: '>=22.13'}
 
   '@rolldown/binding-android-arm64@1.0.3':
@@ -418,19 +418,19 @@ snapshots:
 
   '@rgrmdesign/rgrm-ds-core@0.4.1': {}
 
-  '@rgrmdesign/rgrm-ds-css@0.5.3(@rgrmdesign/rgrm-ds-tokens@0.10.0)':
+  '@rgrmdesign/rgrm-ds-css@0.5.4(@rgrmdesign/rgrm-ds-tokens@0.11.0)':
     dependencies:
       '@fontsource/geist-sans': 5.2.5
-      '@rgrmdesign/rgrm-ds-tokens': 0.10.0
+      '@rgrmdesign/rgrm-ds-tokens': 0.11.0
 
-  '@rgrmdesign/rgrm-ds-react@0.5.3(@rgrmdesign/rgrm-ds-tokens@0.10.0)(react@19.2.7)':
+  '@rgrmdesign/rgrm-ds-react@0.5.4(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)':
     dependencies:
       '@rgrmdesign/rgrm-ds-core': 0.4.1
-      '@rgrmdesign/rgrm-ds-css': 0.5.3(@rgrmdesign/rgrm-ds-tokens@0.10.0)
-      '@rgrmdesign/rgrm-ds-tokens': 0.10.0
+      '@rgrmdesign/rgrm-ds-css': 0.5.4(@rgrmdesign/rgrm-ds-tokens@0.11.0)
+      '@rgrmdesign/rgrm-ds-tokens': 0.11.0
       react: 19.2.7
 
-  '@rgrmdesign/rgrm-ds-tokens@0.10.0': {}
+  '@rgrmdesign/rgrm-ds-tokens@0.11.0': {}
 
   '@rolldown/binding-android-arm64@1.0.3':
     optional: true
