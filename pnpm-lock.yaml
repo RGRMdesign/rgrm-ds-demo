@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@rgrmdesign/rgrm-ds-react':
-        specifier: ^0.5.4
-        version: 0.5.4(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)
+        specifier: ^0.5.5
+        version: 0.5.5(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)
       '@rgrmdesign/rgrm-ds-tokens':
         specifier: ^0.11.0
         version: 0.11.0
@@ -63,13 +63,13 @@ packages:
   '@rgrmdesign/rgrm-ds-core@0.4.1':
     resolution: {integrity: sha512-uCT1zTeRMEWP74epcOMh134XbFciLC/SwQfNR74AHHraPAKXPdH1zoswIF3+9PyuEp81XJ1ge2JDmhei4X0vKg==}
 
-  '@rgrmdesign/rgrm-ds-css@0.5.4':
-    resolution: {integrity: sha512-HdSmRBGlGOZps33Kdr17Ic2+quuE269TWXuWMfbrI0nB3599uH91OKvMicBpJPhB3V66dB1KDjI9BUGB109ibw==}
+  '@rgrmdesign/rgrm-ds-css@0.5.5':
+    resolution: {integrity: sha512-OnJOwjYo5isrEhh1Bnfm9plMaeLAG3zCuEb6cezh0aIlM26WdW1RnhPlMYVzt6WZDhb6q2VtyLpnM34t9SRLhQ==}
     peerDependencies:
       '@rgrmdesign/rgrm-ds-tokens': '>=0.11.0'
 
-  '@rgrmdesign/rgrm-ds-react@0.5.4':
-    resolution: {integrity: sha512-/6tiR01OLiWfNHGGy383IuFNA0Ca7AWgHGBuExrkWNOlMObanRJa84wa//XCFygsbX8wTJc6DqmUdOWVQGLc/A==}
+  '@rgrmdesign/rgrm-ds-react@0.5.5':
+    resolution: {integrity: sha512-GO50n9ncstOlYJBXokvw8lSEP3fUXwkl5rakI9X5WTWLXfFNIjHcT/YzQDxccSRixFKE9PhxZeMMSBHReix1nQ==}
     peerDependencies:
       '@rgrmdesign/rgrm-ds-tokens': '>=0.11.0'
       react: '>=18'
@@ -418,15 +418,15 @@ snapshots:
 
   '@rgrmdesign/rgrm-ds-core@0.4.1': {}
 
-  '@rgrmdesign/rgrm-ds-css@0.5.4(@rgrmdesign/rgrm-ds-tokens@0.11.0)':
+  '@rgrmdesign/rgrm-ds-css@0.5.5(@rgrmdesign/rgrm-ds-tokens@0.11.0)':
     dependencies:
       '@fontsource/geist-sans': 5.2.5
       '@rgrmdesign/rgrm-ds-tokens': 0.11.0
 
-  '@rgrmdesign/rgrm-ds-react@0.5.4(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)':
+  '@rgrmdesign/rgrm-ds-react@0.5.5(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)':
     dependencies:
       '@rgrmdesign/rgrm-ds-core': 0.4.1
-      '@rgrmdesign/rgrm-ds-css': 0.5.4(@rgrmdesign/rgrm-ds-tokens@0.11.0)
+      '@rgrmdesign/rgrm-ds-css': 0.5.5(@rgrmdesign/rgrm-ds-tokens@0.11.0)
       '@rgrmdesign/rgrm-ds-tokens': 0.11.0
       react: 19.2.7
 
