@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@rgrmdesign/rgrm-ds-react':
-        specifier: ^0.5.5
-        version: 0.5.5(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)
+        specifier: ^0.5.6
+        version: 0.5.6(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)
       '@rgrmdesign/rgrm-ds-tokens':
         specifier: ^0.11.0
         version: 0.11.0
@@ -60,16 +60,16 @@ packages:
   '@oxc-project/types@0.133.0':
     resolution: {integrity: sha512-KzkdCd6Uxqnf6l3HOw1xfatAlUURA0g14cvBYFyJ5SaNOQbOUvBr9PKArcPcrNIeRsBdgcUzOGrhKveVpvOIGA==}
 
-  '@rgrmdesign/rgrm-ds-core@0.4.1':
-    resolution: {integrity: sha512-uCT1zTeRMEWP74epcOMh134XbFciLC/SwQfNR74AHHraPAKXPdH1zoswIF3+9PyuEp81XJ1ge2JDmhei4X0vKg==}
+  '@rgrmdesign/rgrm-ds-core@0.4.2':
+    resolution: {integrity: sha512-tKoBCUbeTUZ3VpFAIE1lVAtVz9axhbC4i8DiZdm5TpQxCssnLBjLI8XDJHRUZvgM4o2PNNZY448ESzL2nurbGg==}
 
-  '@rgrmdesign/rgrm-ds-css@0.5.5':
-    resolution: {integrity: sha512-OnJOwjYo5isrEhh1Bnfm9plMaeLAG3zCuEb6cezh0aIlM26WdW1RnhPlMYVzt6WZDhb6q2VtyLpnM34t9SRLhQ==}
+  '@rgrmdesign/rgrm-ds-css@0.5.6':
+    resolution: {integrity: sha512-eZHwhf8EMc6iKpP7DBFiGSuxho95W0lvBSgWtnTEA/7Gh/vcBztEQ9HdTWp8EizqJL+CtoWAQNn8o45qLs/+oA==}
     peerDependencies:
       '@rgrmdesign/rgrm-ds-tokens': '>=0.11.0'
 
-  '@rgrmdesign/rgrm-ds-react@0.5.5':
-    resolution: {integrity: sha512-GO50n9ncstOlYJBXokvw8lSEP3fUXwkl5rakI9X5WTWLXfFNIjHcT/YzQDxccSRixFKE9PhxZeMMSBHReix1nQ==}
+  '@rgrmdesign/rgrm-ds-react@0.5.6':
+    resolution: {integrity: sha512-/BxwItWY+0EUA4Ig4xx2W8U/tmw6PFuxVpMoeQZW8kr79p4M7QE0NLaeQ+AonJfVSPB3u7+UYBpuQ99lpFQ5Gg==}
     peerDependencies:
       '@rgrmdesign/rgrm-ds-tokens': '>=0.11.0'
       react: '>=18'
@@ -416,17 +416,17 @@ snapshots:
 
   '@oxc-project/types@0.133.0': {}
 
-  '@rgrmdesign/rgrm-ds-core@0.4.1': {}
+  '@rgrmdesign/rgrm-ds-core@0.4.2': {}
 
-  '@rgrmdesign/rgrm-ds-css@0.5.5(@rgrmdesign/rgrm-ds-tokens@0.11.0)':
+  '@rgrmdesign/rgrm-ds-css@0.5.6(@rgrmdesign/rgrm-ds-tokens@0.11.0)':
     dependencies:
       '@fontsource/geist-sans': 5.2.5
       '@rgrmdesign/rgrm-ds-tokens': 0.11.0
 
-  '@rgrmdesign/rgrm-ds-react@0.5.5(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)':
+  '@rgrmdesign/rgrm-ds-react@0.5.6(@rgrmdesign/rgrm-ds-tokens@0.11.0)(react@19.2.7)':
     dependencies:
-      '@rgrmdesign/rgrm-ds-core': 0.4.1
-      '@rgrmdesign/rgrm-ds-css': 0.5.5(@rgrmdesign/rgrm-ds-tokens@0.11.0)
+      '@rgrmdesign/rgrm-ds-core': 0.4.2
+      '@rgrmdesign/rgrm-ds-css': 0.5.6(@rgrmdesign/rgrm-ds-tokens@0.11.0)
       '@rgrmdesign/rgrm-ds-tokens': 0.11.0
       react: 19.2.7
 
